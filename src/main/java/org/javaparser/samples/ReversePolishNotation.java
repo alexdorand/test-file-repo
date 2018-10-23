@@ -10,9 +10,13 @@ import java.util.stream.Stream;
 public class ReversePolishNotation {
 
     // What does this do?
-    public static int ONE_BILLION = 1000000000;
+    public static int ONE_BILLION = 1000;
 
     private double memory = 0;
+
+    public int number() {
+        return ONE_BILLION;
+    }
 
     /**
      * Takes reverse polish notation style string and returns the resulting calculation.
